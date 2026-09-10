@@ -118,14 +118,6 @@ MC EER on the dev subset (single-sample val EER proved far too noisy to select b
 | Bayes | point estimate (μ) | 9.23 | 29.6 | 1.330 | – |
 | Bayes | posterior pred. | 7.94 | 6.06 | **0.174** | 0.180 |
 
-Balanced accuracy (mean of per-class recalls at threshold 0.5) matters because
-the always-say-spoof baseline already gets 89.7% plain accuracy on the 1:8.7
-imbalanced protocol. It also exposes the operating point: BayesNN's balanced
-accuracy is low at 0.5 because its underconfident scores put its natural
-threshold near 0.31 (see the EER threshold column) — a threshold-choice issue,
-not a discrimination issue, which is why EER (threshold-free) stays the
-primary metric.
-
 Headline findings (plots in `results/`):
 - **Discrimination**: MC Dropout wins on EER (4.0% vs 7.9%) — the ELBO is a
   harder optimization problem and the variational posterior underfits.
