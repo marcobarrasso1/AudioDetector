@@ -114,7 +114,7 @@ MC EER on the dev subset (single-sample val EER proved far too noisy to select b
 | model | mode | EER% | ECE% | NLL | mean BALD |
 |---|---|---|---|---|---|
 | MCDC  | point estimate | 4.09 | 6.66 | 0.629 | – |
-| MCDC  | posterior pred. | **3.99** | 5.58 | 0.405 | 0.018 |
+| MCDC  | posterior pred. | **3.99** | 5.58 | 0.405 | 0.091 |
 | Bayes | point estimate (μ) | 9.23 | 29.6 | 1.330 | – |
 | Bayes | posterior pred. | 7.94 | 6.06 | **0.174** | 0.180 |
 
