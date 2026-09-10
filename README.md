@@ -12,6 +12,7 @@ Shared backbone: SE-ResNet-style encoder over 80-mel Whisper spectrograms,
 frequency pooling + mean/std stats pooling over time, small FC head (~3.8M
 effective weights; the BayesNN stores 2× parameters because each weight keeps μ and ρ).
 
+
 ## Repository layout
 
 ```
