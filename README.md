@@ -50,8 +50,7 @@ lines).
 - **ECE** — Expected Calibration Error, 15 equal-width confidence bins.
 - **NLL** — proper scoring rules.
 - **BALD** — H[E[p]] − E[H[p]] over posterior samples = epistemic uncertainty.
-  Reported as: mean BALD, error-detection AUROC (does BALD rank the model's own
-  mistakes?), risk–coverage curve / AURC, and EER at 90% coverage.
+
 
 Each model is evaluated in two modes:
 1. **point estimate** — deterministic pass (MCDC: dropout off; BayesNN: μ weights);
