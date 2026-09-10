@@ -1,0 +1,8 @@
+torch
+scikit-learn
+pandas
+tqdm
+torchaudio
+tensorboard
+transformers
+soundfile
